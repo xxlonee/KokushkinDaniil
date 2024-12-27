@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMCARS</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header container">
+        <img class="header__logo" src="images/лого.png" alt="Логотип" width="130" height="100">
+        <h1 class="header__title">IMCARS</h1>
+        <a href="login/registration.html" class="menu__link">Вход / Регистрация</a>
+        <section class="login">
+            <form action="/">
+                <h3> Вход / Регистрация </h3>
+                <input type="tel" name="phone" placeholder="Номер телефона" required>
+                <input type="password" name="password" placeholder="Пароль" required>
+                <button> Войти </button>
+            </form>    
+        </section>
+        <nav class="header__menu">
+            <ul class="menu">
+                <li class="menu__item"><a href="#" class="menu__link">Модели</a> </li>
+                <li class="menu__item"><a href="#" class="menu__link">Покупателям</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Владельцам</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">O компании</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Контактные данные</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main container">
+        <section>
+        <div class="popular_models">
+            <h2>Наиболее популярные предложения</h2>
+            <img class="popular_cars__img" src="images/mercedes_s-class.jpg" alt="Mercedes" width="750">
+            <p><a href="#">О модели</a></p>
+        </div>
+        </section>
+        <section class="model">
+                <h2 class="model__title">Модельный ряд</h2>
+            <ul class="model__list">
+                <li class="model__list-item">
+                    <img class="model__img" src="images/Lada_vesta.jpg" alt="Lada Vesta" width="150">
+                    <p class="model__car">Lada Vesta, 2024</p>
+                    <span class="model__price"> 2 000 000 руб.</span>
+                    <a class="model__link" href="#"> Подробнее</a>
+                </li>
+                <li class="model__list-item">
+                    <img class="model__img" src="images/Lada_granta.jpg" alt="Lada Granta" width="150">
+                    <p class="model__car">Lada Granta Sport, 2024</p>
+                    <span class="model__price"> 1 500 000 руб.</span>
+                    <a class="model__link" href="#"> Подробнее</a>
+                </li>
+            </ul>
+        </section>
+        <section class="about">
+            <div class="about__wrap-left">
+            <h2 class="about__title">О компании</h2>
+            <p>IMCARS — это современный автомобильный маркетплейс, который предлагает своим клиентам широкий выбор новых и подержанных автомобилей. 
+                Мы стремимся создать удобные условия для покупки и продажи автомобилей, обеспечивая высокое качество обслуживания и прозрачность всех сделок.
+                Покупка автомобиля — это важный шаг, и наша цель — сделать этот процесс максимально комфортным и безопасным. 
+                Каждое транспортное средство в нашем каталоге проходит тщательную проверку на юридическую чистоту и техническое состояние, что гарантирует нашим клиентам уверенность в своем выборе.
+            </p>
+        </div>
+        <div class="about__wrap-right">
+            <img class="about__image" src="images/autosalon.jpg" alt="Фото салона" width="500" height="200">
+        </div>
+        </section>
+    </main>
+    <footer class="footer container">
+        <h2 class="creator">Разработчик</h2>
+        <p class="name">Кокушкин Даниил ЭК-31</p>
+    </footer>
+</body>
+</html>
